@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: gray;
+  color: beige;
+}
+
+.fotoInfo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10%;
+}
+
+img {
+  width: 50%;
+  border-radius: 15px;
+}
+
+.info {
+  width: 40%;
+}
+
+header {
+  padding-top: 0.5em;
+}
+
+hr {
+  margin: 1em 0;
+}
+
+h1 {
+  text-align: center;
+  color: bisque;
+  margin: 0.5em;
+}
+
+h2, h3 {
+  margin: 1em 0 0;
+}
+
+a {
+  text-decoration: none;
+  color: beige;
+}
+
+a:hover {
+  color: bisque;
+}
+
+header a {
+  font-weight: bold;
+  background-color: rgb(58, 54, 54);
+  border-radius: 5px;
+  padding: 4px;
+  box-shadow: 5px 5px rgb(119, 109, 109);
+}
+
+header a:hover {
+  background-color: brown;
+  box-shadow: 5px 5px rgb(124, 60, 60);
+}
+
+.manyIngredients {
+  display: flex;
+  gap: 1em;
+}
+
+li {
+  margin-top: 0.5em;
+  list-style-position: inside;
+  list-style-type: none;
+}
+
+.ingredients li::before {
+  content: "* ";
+  color: bisque;
+}
+
+ol {
+  counter-reset: item;
+  list-style-type: none;
+}
+
+.directions li::before {
+  content: "Step "counter(item)": ";
+  counter-increment: item;
+  font-weight: bold;
+  color: bisque;
+}
+
+footer {
+  padding-bottom: 0.5em;
+}
