@@ -8,6 +8,16 @@ body {
   width: 90%;
   max-width: 900px;
   margin: 0 auto;
-  background-color: gray;
+  background-color: rgb(111, 111, 111);
   color: beige;
+}
+
+a {
+  text-decoration: none;
+  color: beige;
+  font-weight: 700;
+}
+
+a:hover {
+  color: bisque;
 }
