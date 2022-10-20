@@ -12,15 +12,29 @@ h1 {
   font-size: 4rem;
   color: rgb(110, 19, 19);
   box-shadow: 5px 5px 10px;
-  background-color: rgba(199, 176, 176, 0.53);
+  background-color: rgba(212, 194, 194, 0.53);
   border-radius: 10px;
 }
 
 img {
+  border-radius: 15px;
+  border: solid; 
+}
+
+header img {
   margin-top: 1em;
   width: 100%;
-  border-radius: 15px;
-  border: solid;
+}
+
+nav img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  object-fit: cover;
+}
+nav img:hover {
+  filter: contrast(110%);
+  filter: brightness(110%);
 }
 
 ul {
@@ -31,8 +45,4 @@ ul {
 
 li {
   list-style: none;
-}
-
-footer {
-  text-align: end;
 }

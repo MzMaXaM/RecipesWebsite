@@ -35,13 +35,13 @@ header a {
   font-weight: bold;
   background-color: rgb(58, 54, 54);
   border-radius: 5px;
-  padding: 4px;
-  box-shadow: 5px 5px rgb(119, 109, 109);
+  padding: 4px 12px;
+  box-shadow: 5px 5px 5px rgb(97, 91, 91);
 }
 
 header a:hover {
   background-color: brown;
-  box-shadow: 5px 5px rgb(124, 60, 60);
+  box-shadow: 5px 5px 5px rgb(124, 60, 60);
 }
 
 .manyIngredients {
@@ -70,8 +70,4 @@ ol {
   counter-increment: item;
   font-weight: bold;
   color: bisque;
-}
-
-footer {
-  padding-bottom: 0.5em;
 }

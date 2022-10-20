@@ -21,3 +21,7 @@ a {
 a:hover {
   color: bisque;
 }
+
+footer {
+  text-align: end;
+}
